@@ -10,6 +10,7 @@ namespace MoveEffectTool
     {
         protected override void Effect()
         {
+            base.Effect();
             transform.DOPunchRotation(new Vector3(0, 0, 30), 0.2f, 4, 0.5f);
         }
     }

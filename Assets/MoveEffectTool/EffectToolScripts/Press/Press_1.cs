@@ -10,6 +10,7 @@ namespace MoveEffectTool
     {
         protected override void Effect()
         {
+            base.Effect();
             transform.DOPunchScale(new Vector3(-0.2f, 0, 0), 0.4f, 12, 0.5f);
         }
     }
